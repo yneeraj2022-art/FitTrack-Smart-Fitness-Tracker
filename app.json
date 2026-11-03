@@ -10,15 +10,24 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "android.permission.ACTIVITY_RECOGNITION"
+      ],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.yneeraj2022.FitTrack"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd2805e1-2fc7-47dd-ae92-c9c3f9725a3b"
+      }
     }
   }
 }
